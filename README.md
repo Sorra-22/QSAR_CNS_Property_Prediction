@@ -78,8 +78,6 @@ ChemProp uses a **Directed Message Passing Neural Network** that operates direct
 pip install chembl_webresource_client rdkit scikit-learn chemprop pandas numpy matplotlib seaborn
 ```
 
-> **Google Colab:** Paste the pip install line into the first cell and run it directly — no local setup needed.
-
 ---
 
 ## Usage
@@ -101,7 +99,7 @@ Open `QSAR_CNS_Property_Prediction.ipynb` in Jupyter or Colab and run cells top 
 | 11–14 | Generate figures |
 | 15 | Final summary + export CSV |
 
-> Cell 9 (ChemProp) takes ~5–10 minutes. It can be skipped — all other cells will still run.
+
 
 ---
 
@@ -113,7 +111,7 @@ Open `QSAR_CNS_Property_Prediction.ipynb` in Jupyter or Colab and run cells top 
 | Random Forest | -0.157 | 0.939 | 0.63 |
 | Gradient Boosting | -0.328 | 1.006 | 0.757 |
 
-*Results populate after running the notebook.*
+
 
 ---
 
